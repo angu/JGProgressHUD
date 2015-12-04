@@ -8,6 +8,7 @@ Pod::Spec.new do |s|
   s.author             	= "Jonas Gessner"
   s.social_media_url   	= "http://twitter.com/JonasGessner"
   s.platform     	= :ios, "5.0"
+  s.tvos.deployment_target = "9.0"
   s.source       	= { :git => "https://github.com/JonasGessner/JGProgressHUD.git", :tag => "v1.3.1" }
   s.source_files 	= "JGProgressHUD/JGProgressHUD/*.{h,m}"
   s.resource	 	= "JGProgressHUD/JGProgressHUD/JGProgressHUD Resources.bundle"
